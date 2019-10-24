@@ -43,7 +43,7 @@ except NameError:
     FileNotFoundError = IOError
 
 
-DEFAULT_CONFIG = "default.ini"
+DEFAULT_CONFIG = "/home/cvm/PMSFnestScript/default.ini"
 POKE_NAMES_FILE = "poke_names.json"
 
 DISCORD_MAX_MSG = 2000 - 100  # -100 to be sure under the limit
