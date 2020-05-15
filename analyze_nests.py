@@ -44,13 +44,13 @@ except NameError:
 
 
 DEFAULT_CONFIG = "/home/cvm/PMSFnestScript/default.ini"
-POKE_NAMES_FILE = "poke_names.json"
+POKE_NAMES_FILE = "/home/cvm/PMSFnestScript/poke_names.json"
 
 DISCORD_MAX_MSG = 2000 - 100  # -100 to be sure under the limit
 DISCORD_RATE_LIMIT = 1  # in second
 
-FILENAME = "osm_data/OSM_DATA_{area}_{date}.json"
-PARKNAME_FILE = "area_data/{area}.csv"
+FILENAME = "/home/cvm/PMSFnestScript/osm_data/OSM_DATA_{area}_{date}.json"
+PARKNAME_FILE = "/home/cvm/PMSFnestScript/area_data/{area}.csv"
 
 ### Overpass api data
 OSM_API = "https://overpass-api.de/api/interpreter"
